@@ -1,0 +1,58 @@
+
+
+.dateText {
+    font-weight: bold;
+}
+
+.background {
+  background-color: #EEEEEE;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+.name-title {
+  font-family: 'Indie Flower', cursive;
+  font-style: bold;
+  font-size: 4em;
+  color: #FF0000;
+
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+p {
+  font-size: .5em;
+  font-style: bold;
+}
+
+.quote-text {
+  font-family: 'Indie Flower', cursive;
+  font-size:1em;
+  font-style: italic;
+}
+
+#elonPhoto {
+    margin-left: auto ;
+    margin-right: auto;
+}
+
+.thumbnail {
+    padding-left: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+img.img-responsive {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+*/
