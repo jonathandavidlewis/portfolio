@@ -1,58 +1,106 @@
-
-
-.dateText {
-    font-weight: bold;
+/* selects everything and adds a border for element identification. 
+* {
+    border: 1px solid rgba(0,0,0,0.1)
 }
 
-.background {
-  background-color: #EEEEEE;
-  border-radius: 10px;
-  margin-top: 40px;
-}
-.name-title {
-  font-family: 'Indie Flower', cursive;
-  font-style: bold;
-  font-size: 4em;
-  color: #FF0000;
-
+*:hover {
+    border: 1px solid black;
 }
 
-.bold {
-  font-weight: bold;
-  font-size: 1.2em;
-}
-p {
-  font-size: .5em;
-  font-style: bold;
-}
-
-.quote-text {
-  font-family: 'Indie Flower', cursive;
-  font-size:1em;
-  font-style: italic;
-}
-
-#elonPhoto {
-    margin-left: auto ;
-    margin-right: auto;
-}
-
-.thumbnail {
-    padding-left: 0px;
-}
-
-
-
-
-
-
-
-
-
-
-/*
-img.img-responsive {
-  margin-left: 0px;
-  margin-right: 0px;
-}
 */
+header.navbar {
+    border: 1px solid red;
+}
+
+.navbar-brand {
+/*    border: 1px solid blue; */
+    margin-top: -8px;
+}
+
+a.navbar-brand h1 {
+    display: inline;
+}
+
+.jumbotron:hover {
+    border: 1px solid black;
+}
+
+/* Halloween style selections for paragraph text. */
+p::selection {
+    color: #fa5;
+    background: #000;
+    text-decoration: line-through;
+}
+
+p {
+    border: 1px solid #eee;
+    flex-wrap: wrap;
+    
+}
+
+p:hover {
+    border: 1px solid black;
+}
+
+.container:hover {
+    border: 1px solid purple;
+}
+.container-fluid:hover {
+    border: 1px solid black;
+}
+header:hover {
+    border: 1px solid black;
+}
+body:hover {
+    border: 1px solid black;
+}
+
+header li {
+    display: inline;
+    
+    
+}
+
+
+header li:nth-child(2), header li:nth-child(3) {
+    border-left:1px solid #000;
+}
+
+header ul {
+    float: right;
+    font-size: 2em;
+    margin-right: 20px;
+    vertical-align: bottom;
+}
+
+#about img {
+    float:left;
+    margin-right: 5px;
+
+}
+
+hr {
+    border: 2px solid #999;
+        width: 50%;
+}
+
+.portfolio-item {
+    display: inline;
+    padding: 5px;
+ 
+
+
+}
+
+
+.portfolio-item img{
+    display: inline;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5%;
+    width: 250px;
+}
+
+.container-fluid {
+    display: inline;
+}

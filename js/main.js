@@ -1,0 +1,1 @@
+$('#current-url-qr').html('<img src="http://api.qrserver.com/v1/create-qr-code/?data=' + window.location.href + '&size=100x100">');
